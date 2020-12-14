@@ -1,0 +1,60 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+021     main.@SCRATCH1
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+086     PORTB
+086     TRISB
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+000021  @cinit2
+
+Project Directory:
+    D:\pic-cssc-projects\firstproject\
+
+Project Files:
+    second_file.c                                           [13-dic-20 00:43  CRC=4C339988]
+    ..\..\PICC\Devices\16f876.h                             [30-oct-19 15:48  CRC=66252361]
+
+Source signature=187DE04A
+Program memory checksum=0000
+Hex file CRC=94AC
+
+Units:
+    D:\pic-cssc-projects\firstproject\second_file (main)
+
+Compiler Settings:
+    Processor:      PIC16F876
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   second_file.xsym
+    Errors:      second_file.err
+    Ext Symbols: second_file.esym
+    INHX8:       second_file.hex
+    Symbols:     second_file.sym
+    List:        second_file.lst
+    Debug/COFF:  second_file.cof
+    Project:     second_file.ccspjt
+    Call Tree:   second_file.tre
+    Statistics:  second_file.STA

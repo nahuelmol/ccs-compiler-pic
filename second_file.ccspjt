@@ -1,0 +1,28 @@
+[PROJECT]
+Target=second_file.hex
+Processor_Text=PIC16F876
+CCSVersion=5.091
+Compiler=PCM
+[Target Data]
+FileList=second_file.c
+[second_file.c]
+Type=4
+[mru-list]
+1=second_file.c
+[Units]
+Count=1
+1=second_file (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=13-12-2020
+D1_L=2
+D1_L1=[2891]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L2=[3636]Project Closed.
